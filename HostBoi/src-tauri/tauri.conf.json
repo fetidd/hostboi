@@ -7,7 +7,7 @@
   },
   "package": {
     "productName": "HostBoi",
-    "version": "0.0.0"
+    "version": "0.1.0"
   },
   "tauri": {
     "allowlist": {
@@ -28,7 +28,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri.dev",
+      "identifier": "com.fetidd.hostboi",
       "longDescription": "",
       "macOS": {
         "entitlements": null,
@@ -55,10 +55,11 @@
     "windows": [
       {
         "fullscreen": false,
-        "height": 300,
-        "resizable": true,
+        "height": 250,
+        "resizable": false,
         "title": "HostBoi",
-        "width": 300
+        "width": 250,
+        "decorations": false
       }
     ]
   }
